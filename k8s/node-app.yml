@@ -12,11 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: node-app 
+        app: node-app
     spec:
       containers:
       - name: node-app
-        image: ./
+        image: silverioasd/reto-devops:v1
         ports:
         - containerPort: 3000
-        
